@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>Trial</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdVx6Hy4eomc2RdUTTl-xqRtRTiJ6AFBM"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+
+<body background="bgD.png">
+
+    <center>
+        <h1 id="heading">
+          Keep Our Bharat "Swach Bharat"
+        </h1>
+        <br>
+        <p>Can you see any garbage around you? If yes then click below to share location of waste on google earth</p>
+        <br><br>
+        <input id="address" class="adress_input" placeholder="Put your Adress here" >
+        <br><br>
+ 
+         <button class="btn btn-warning" id="address" type="button" onclick="submit_address()">Submit Address</button>
+         <div id="adrs"></div>
+         <br>
+         <p>Don't know your adress? Then Press the button below to see your location on Google Maps</p>
+         <br>
+        <button class="btn btn-success" onclick="getlocation();"> Show Position</button>
+        <br>
+        <div id="demo" style="width: 600px; height: 400px; margin-left: 200px;"></div>
+        <br>
+       
+    
+
+    </center>
+    <script src="main.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,27 @@
+#heading
+{
+font-family: fantasy;
+font-weight: bolder;
+color: black;
+ }
+
+ .adress_input
+ {
+        width:300px;
+        background-color: lightgreen;
+        text-align: center;
+        color:black;
+        border:2px greenyellow solid;
+        font-weight:bold;
+        border-radius: 30px;
+ }
+
+ body
+{
+    background-size: cover;
+}
+
+p
+{
+    font-weight: bold;
+}
